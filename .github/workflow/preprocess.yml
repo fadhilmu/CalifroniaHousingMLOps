@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'CaliforniaHousing.csv'   # Trigger saat file mentah di root repo diupdate
+    branches:
+      - '**'
   workflow_dispatch:              # Bisa dijalankan manual
 
 jobs:
